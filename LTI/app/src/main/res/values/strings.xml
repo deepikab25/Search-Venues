@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Foursquare</string>
+    <string name="launcher_name">Foursquare Venue</string>
+
+    <string name="tag">FOURSQUARE</string>
+
+    <string name="searching_text">Searching... Please wait</string>
+    <string name="no_data_received">No data received</string>
+    <string name="server_error_try_later">Server error, try later</string>
+    <string name="no_response_received">No response received</string>
+    <string name="no_item">No venues found</string>
+    <string name="nothing"> </string>
+    <string name="no_venues_retrieved">No venues retrieved</string>
+
+    <string name="client_id"></string>
+    <string name="client_secret"></string>
+
+    <string name="endpoint_search_path">https://api.foursquare.com/v2/venues/search</string>
+    <string name="gpsoff"> "GPS is off, would like to switch it on ?"</string>
+
+    <string-array name="createsqlqueries">
+        <item>
+            create table if not exists history (id integer primary key autoincrement,
+                keyword_searched text);
+        </item>
+    </string-array>
+
+</resources>
